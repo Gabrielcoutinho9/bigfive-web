@@ -25,7 +25,7 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "cleanup": "rm -rf .next",
@@ -98,10 +98,5 @@
     "files": [
       "test/**/*"
     ]
-  }
-}
-{
-  "scripts": {
-    "dev": "next dev"
   }
 }
