@@ -100,4 +100,9 @@
     ]
   }
 }
-update react and next for vercel
+{
+  "scripts": {
+    "dev": "next dev"
+  }
+}
+
